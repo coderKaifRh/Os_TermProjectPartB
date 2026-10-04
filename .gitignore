@@ -1,0 +1,22 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary and intermediate generation files
+report_print.html
+report_temp.pdf
+
+# Submission zip archive (keep clean repository)
+*.zip
+
+# Reports submitted separately
+report.pdf
+report.tex
+references.bib
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

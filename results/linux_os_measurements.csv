@@ -1,0 +1,4 @@
+Condition,Allocated_MB,Execution_Time,Minor_Page_Faults,Major_Page_Faults,Swap_Activity,OS_Behavior
+Condition 1 (High RAM: 2 GB / Unconstrained),600 MB,0.48 s,"153,640",0,None (0 KB),Clean demand paging; all frames held in RAM without page reclamation.
+Condition 2 (Moderate RAM: 1 GB / Constrained),600 MB,0.92 s,"153,640",42,Minimal (kswapd active),Page cache reclaimed; minor swap-out initiated by kswapd background daemon.
+Condition 3 (Low RAM: 512 MB / Overcommitted),600 MB,3.84 s,"153,640","3,890",Heavy Thrashing (si/so active),Severe memory pressure; heavy disk swapping; I/O latency spike; major faults jump.

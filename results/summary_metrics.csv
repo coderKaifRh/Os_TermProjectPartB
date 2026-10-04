@@ -1,0 +1,5 @@
+Policy,Frames,PreShift_Hits,PreShift_Faults,PreShift_HitRatio,PostShift_Hits,PostShift_Faults,PostShift_HitRatio,Overall_Hits,Overall_Faults,Overall_HitRatio
+FIFO,6,598,402,59.8,80,920,8.0,678,1322,33.9
+LRU,6,600,400,60.0,80,920,8.0,680,1320,34.0
+Optimal (Belady),6,698,302,69.8,328,672,32.8,1026,974,51.3
+Learned (Decision Tree),6,375,625,37.5,132,868,13.2,507,1493,25.35
